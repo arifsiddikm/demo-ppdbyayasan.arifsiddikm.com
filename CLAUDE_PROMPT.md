@@ -136,7 +136,7 @@ Host: smtp.hostinger.com
 Port: 465
 Encryption: ssl
 Username: noreply@arifsiddikm.com
-Password: SatuDua345!!
+Password: 
 From: noreply@arifsiddikm.com
 Admin: arifsiddikmuharam@gmail.com
 ```
@@ -156,14 +156,14 @@ Di frontend: tampilkan loading badge saat proses kirim email.
 
 **Env:**
 ```env
-MIDTRANS_CLIENT_KEY=SB-Mid-client-YQ6BjX9sqs3xGMHr
-MIDTRANS_SERVER_KEY=SB-Mid-server-3RAh5nBbKZtdE-x1eVKvUm-i
+MIDTRANS_CLIENT_KEY=
+MIDTRANS_SERVER_KEY=
 MIDTRANS_IS_PRODUCTION=false
 MIDTRANS_SNAP_JS_URL=https://app.sandbox.midtrans.com/snap/snap.js
 MIDTRANS_ORDER_PREFIX=INV
-RIPLABS_KEY=a9s8d7bas98d7981273xbasduky8b71o247bai8f
-RIPLABS_SNAPTOKEN_URL=https://restapi.riplabs.co.id/snaptokenppdbyayasan/getsnaptoken
-MIDTRANS_CALLBACK_KEY=a9s8d7bas98d7981273xbasduky8b71o247bai8f
+RIPLABS_KEY=
+RIPLABS_SNAPTOKEN_URL=
+MIDTRANS_CALLBACK_KEY=
 ADMIN_WHATSAPP=6289514392694
 ```
 

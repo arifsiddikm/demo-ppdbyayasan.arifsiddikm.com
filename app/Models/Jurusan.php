@@ -1,0 +1,14 @@
+<?php
+namespace App\Models;
+use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Relations\BelongsTo;
+use Illuminate\Database\Eloquent\Relations\HasMany;
+
+class Jurusan extends Model
+{
+    protected $table = 'jurusans';
+    protected $fillable = ['sekolah_id','nama_jurusan','kode_jurusan','deskripsi','kuota','is_active'];
+
+    public function sekolah(): BelongsTo { return $this->belongsTo(Sekolah::class, 'sekolah_id'); }
+    public function pendaftarans(): HasMany { return $this->hasMany(Pendaftaran::class, 'jurusan_id'); }
+}
